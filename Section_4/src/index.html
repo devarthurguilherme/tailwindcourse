@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <link rel="stylesheet" href="css/build.css">
+</head>
+<body>
+    <!--Flex Direction-->
+    <div class="container mx-auto flex flex-row bg-red-300">
+        <div class="bg-red-600 m-2 p-6">1</div>
+        <div class="bg-red-600 m-2 p-6">1</div>
+        <div class="bg-red-600 m-2 p-6">1</div>
+    </div>
+    <div class="container mx-auto flex flex-col bg-blue-300">
+        <div class="bg-blue-600 m-2 p-6">1</div>
+        <div class="bg-blue-600 m-2 p-6">1</div>
+        <div class="bg-blue-600 m-2 p-6">1</div>
+    </div>
+    <div class="container mx-auto flex flex-row-reverse bg-red-300">
+        <div class="bg-red-600 m-2 p-6">1</div>
+        <div class="bg-red-600 m-2 p-6">1</div>
+        <div class="bg-red-600 m-2 p-6">1</div>
+    </div>
+    <div class="container mx-auto flex flex-col-reverse bg-blue-300">
+        <div class="bg-blue-600 m-2 p-6">1</div>
+        <div class="bg-blue-600 m-2 p-6">2</div>
+        <div class="bg-blue-600 m-2 p-6">3</div>
+    </div>
+    <!--Exercise 5-->
+    <div class="container mx-auto flex flex-col">
+        <div class="bg-red-400">1</div>
+        <div class="bg-red-500">2</div>
+        <div class="bg-red-600">3</div>
+        <div class="bg-red-100">4</div>
+        <div class="bg-red-200">5</div>
+        <div class="bg-red-300">6</div>
+    </div>
+    <!--Wrap-->
+    <div class="container flex-wrap mx-auto flex flex-row p-2">
+        <div class="bg-blue-400 p-6 m-3">1</div>
+        <div class="bg-blue-500 p-6 m-3">2</div>
+        <div class="bg-blue-600 p-6 m-3">3</div>
+        <div class="bg-blue-100 p-6 m-3">4</div>
+        <div class="bg-blue-200 p-6 m-3">5</div>
+        <div class="bg-blue-300 p-6 m-3">6</div>
+    </div>
+    <!--Flex Grow Shrink Basis-->
+    <div class="container mx-auto flex bg-green-400 p-8">
+        <div class="flex-1 bg-green-800">1</div>
+        <div class="flex-1 bg-green-600">2</div>
+        <div class="flex-none bg-green-200">3</div>
+    </div>
+    <!--Order-->
+    <div class="container mx-auto flex flex-wrap bg-green-400 p-8">
+        <div class="bg-green-800 p-6 m-4 order-last">1</div>
+        <div class="bg-green-600 p-6 m-4 order-5">2</div>
+        <div class="bg-green-200 p-6 m-4 order-4">3</div>
+        <div class="bg-green-800 p-6 m-4 order-3">4</div>
+        <div class="bg-green-600 p-6 m-4 order-2">5</div>
+        <div class="bg-green-200 p-6 m-4 order-first">6</div>
+    </div>
+    <!--Exercise 6-->
+    <div class="container bg-purple-400 flex flex-wrap mx-auto">
+        <div class="bg-blue-800 p-5 m-5 lg:order-last">6</div>
+        <div class="bg-blue-700 p-5 m-5 lg:order-5">5</div>
+        <div class="bg-blue-600 p-5 m-5 lg:order-4">4</div>
+        <div class="bg-blue-500 p-5 m-5 lg:order-2">3</div>
+        <div class="bg-blue-400 p-5 m-5 lg:order-2">2</div>
+        <div class="bg-blue-300 p-5 m-5 lg:order-1">1</div>
+        <div class="bg-blue-200 p-5 m-5 lg:order-first">0</div>
+    </div>
+</body>
+</html>
