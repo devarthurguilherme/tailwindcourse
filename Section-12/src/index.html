@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactivity</title>
+    <link rel="stylesheet" href="css/build.css">
+</head>
+<body>
+    <div class="container flex justify-center items-center p-40">
+        <select name="" id="" class="">
+            <option value="">Test</option>
+        </select>
+        <select name="" id="" class="appearance-none">
+            <option value="">Test</option>
+        </select>
+    </div>
+    <!--Cursor-->
+    <div class="mt-20"></div>
+    <div class="h-20 mb-10 bg-pink-600 cursor-pointer"></div>
+    <div class="h-20 mb-10 bg-pink-200 cursor-wait"></div>
+    <div class="h-20 mb-10 bg-pink-800 cursor-not-allowed"></div>
+    <div class="h-20 mb-10 bg-pink-400 cursor-text"></div>
+    <!--Remove Outlines-->
+    <div class="mt-20"></div>
+    <div class="bg-gray-200 mx-auto container flex justify-center items-center p-40">
+        <input type="text" placeholder="Hello World" class="">
+        <input type="text" placeholder="Hello World" class="outline-none">
+    </div>
+    <!--Remove Events-->
+    <div class="mt-20"></div>
+    <div class="container mx-auto p-10 bg-gray-200 flex justify-center items-center">
+        <select name="" id="" class="">
+            <option value="" class="pointer-events-none">Test</option>
+        </select>
+        <select name="" id="" class="pointer-events-auto">
+            <option value="">Test</option>
+        </select>
+        <textarea name="" id="" cols="30" rows="10" class="ml-6 pointer-events-none"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="ml-6 pointer-events-auto"></textarea>
+    </div>
+    <!--Resize-->
+    <div class="mt-20"></div>
+    <div class="container mx-auto p-10 bg-gray-200 flex justify-center items-center">
+        <textarea name="" id="" cols="30" rows="10" class="ml-6 resize-none"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="ml-6 resize-y"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="ml-6 resize-x"></textarea>
+    </div>
+    <div class="mt-20"></div>
+     <!--Limiting the selection-->
+     <div class="mt-20"></div>
+     <div class="container mx-auto p-10 bg-gray-200 flex justify-center items-center">
+        <p class="select-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam doloremque aperiam ipsam nisi dolorem rerum officia nam laudantium voluptatibus. Numquam praesentium officia fuga nemo. Fuga laudantium consequuntur voluptatum quas doloribus!</p>
+    </div>
+</body>
+</html>
