@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <link rel="stylesheet" href="css/build.css">
+</head>
+<body class="bg-gray-400">
+    <!--Rounded-->
+    <div class="container mx-auto">
+        <button class="m-4 bg-red-400 p-4 rounded">Hello</button>
+        <button class="m-4 bg-red-400 p-4 rounded-sm">Hello</button>
+        <button class="m-4 bg-red-400 p-4 rounded-full">Hello</button>
+        <button class="m-4 bg-red-400 p-4 rounded-3xl">Hello</button>
+        <button class="m-4 bg-red-400 p-4 rounded-full">Hello</button>
+    </div>
+    <div class="container mx-auto">
+        <span class="bg-green-400 h-20 w-20 m-4 rounded-full block">Rounded</span>
+        <span class="bg-green-400 h-20 w-40 m-4 rounded-full block">Rounded</span>
+    </div>
+    <div class="m-40"></div>
+    <!--Color and Width-->
+    <div class="container mx-auto">
+        <div class="w-20 h-20 flex justify-center items-center text-white rounded-sm border-4 border-red-600 bg-blue-400">
+            <h1>Hello</h1>
+        </div>
+        <div class="w-20 h-20 mt-10 flex justify-center items-center text-white rounded border-4 border-red-600 bg-blue-400">
+            <h1>Hello</h1>
+        </div>
+    </div>
+    <!--Style and Opacity-->
+    <div class="container mx-auto">
+        <div class="mt-20 w-20 h-20 flex justify-center items-center text-white rounded-sm border-4 border-purple-600 border-opacity-0 bg-blue-400">
+            <h1>Hello</h1>
+        </div>
+        <div class="mt-20 border-double w-20 h-20 flex justify-center items-center text-white rounded-sm border-4 border-purple-600 border-opacity-25 bg-blue-400">
+            <h1>Hello</h1>
+        </div>
+        <div class="mt-20 w-20 border-dashed h-20 flex justify-center items-center text-white rounded-sm border-4 border-purple-600 border-opacity-50 bg-blue-400">
+            <h1>Hello</h1>
+        </div>
+        <div class="mt-20 w-20 h-20 border-dotted flex justify-center items-center text-white rounded-sm border-4 border-purple-600 border-opacity-75 bg-blue-400">
+            <h1>Hello</h1>
+        </div>
+        <div class="mt-20 w-20 h-20 flex justify-center items-center text-white rounded-sm border-4 border-purple-600 border-opacity-100 bg-blue-400">
+            <h1>Hello</h1>
+        </div>
+    </div>
+    <!--Divide-->
+    <div class="m-40"></div>
+    <div class="m-40"></div>
+    <div class="container bg-blue-300 grid grid-cols-4 divide-red-700 divide-x-4 divide-dotted mx-auto">
+        <div class="text-center">1</div>
+        <div class="text-center">2</div>
+        <div class="text-center">3</div>
+        <div class="text-center">4</div>
+    </div>
+    <div class="m-40"></div>
+    <div class="m-40"></div>
+    <div class="container bg-blue-300 divide-red-700 divide-y-4 divide-dotted mx-auto">
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+        <p>Test</p>
+    </div>
+     <!--Divide-->
+     <div class="m-40"></div>
+     <div class="m-40"></div>
+     <div class="container mx-auto w-40 h-40 shadow-xs"></div>
+     <div class="container mx-auto w-40 h-40 shadow"></div>
+     <div class="container mx-auto w-40 h-40 shadow-xl"></div>
+     <div class="container mx-auto w-40 h-40 shadow-2xl"></div>
+</body>
+</html>
